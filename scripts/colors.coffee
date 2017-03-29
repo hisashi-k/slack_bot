@@ -1,6 +1,6 @@
 # Description
 #   Hubot script
-#
+#https://git.heroku.com/hk-slack-juliana-tokyo.git
 # Configuration:
 #   None
 #
