@@ -33,3 +33,6 @@ module.exports = (robot) ->
     
   robot.hear /ナーガ/i, (msg) ->
     msg.send "ほーほっほっほっ!!"
+
+  robot.hear /痛い/i, (msg) ->
+    msg.send "だいじょうぶ?"
