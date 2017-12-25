@@ -148,3 +148,81 @@ module.exports = (robot) ->
   robot.hear /SFマガジン/i, (msg) ->
     msg.send "400号は2,500円もしたのよ!"
 
+  robot.hear /ブレグジット/i, (msg) ->
+    msg.send "以前、EMS(欧州通貨制度)にイギリスが大ブーイングだったことを考えると、不思議じゃないのかもね～。"
+
+  robot.hear /EU/i, (msg) ->
+    msg.send "ヨーロッパ連合ね～。"
+
+  robot.hear /EC/i, (msg) ->
+    msg.send "ヨーロッパ共同体ね～。"
+
+  robot.hear /地域的経済統合/i, (msg) ->
+    msg.send "ALADI、ASEAN、COMECON、EFTA、OECD、SAARC、SELA……"
+
+  robot.hear /EFTA/i, (msg) ->
+    msg.send "ヨーロッパ自由貿易連合ね～。"
+
+  robot.hear /OECD/i, (msg) ->
+    msg.send "経済協力開発機構ね～。"
+
+  robot.hear /COMECON/i, (msg) ->
+    msg.send "経済相互援助会議ね～。"
+
+  robot.hear /ALADI/i, (msg) ->
+    msg.send "ラテンアメリカ統合連合ね～。"
+
+  robot.hear /SELA/i, (msg) ->
+    msg.send "ラテンアメリカ経済機構ね～。"
+
+  robot.hear /ASEAN/i, (msg) ->
+    msg.send "東南アジア諸国連合ね～。"
+
+  robot.hear /ECSC/i, (msg) ->
+    msg.send "欧州石炭鉄鉱共同体ね～。"
+
+  robot.hear /EEC/i, (msg) ->
+    msg.send "欧州経済共同体ね～。"
+
+  robot.hear /EURATOM/i, (msg) ->
+    msg.send "欧州原子力共同体ね～。"
+
+  robot.hear /SEA/i, (msg) ->
+    msg.send "単一欧州議定書ね～。"
+
+  robot.hear /CAP/i, (msg) ->
+    msg.send "ECの共通農業政策ね～。"
+
+  robot.hear /ECU/i, (msg) ->
+    msg.send "欧州通貨単位って、実際の貨幣は存在しないのよね～。"
+
+  robot.hear /VAT/i, (msg) ->
+    msg.send "付加価値税ね～。"
+
+  robot.hear /MSAC/i, (msg) ->
+    msg.send "1973年の石油危機で最も深刻な影響を受けた「最貧国」ね～。"
+
+  robot.hear /UNCTAD/i, (msg) ->
+    msg.send "国連貿易開発会議って先進資本主義諸国と後発発展途上国の経済格差、つまり南北問題が顕在化したところなのよね～。ここから資源ナショナリズムという考え方が出て来たと思うの～。"
+
+  robot.hear /資源ナショナリズム/i, (msg) ->
+    msg.send "天然資源の恒久主権よね～。"
+
+  robot.hear /OPEC/i, (msg) ->
+    msg.send "石油輸出国機構って、メジャーに対抗してつくられた発展途上国側の組織なのよね～。"
+
+  robot.hear /メジャー/i, (msg) ->
+    msg.send "エクソン・モービル・シェブロン・テキサコ・ガルフ・BP・シェルのセブン・シスターズね!"
+
+  robot.hear /立憲君主制/i, (msg) ->
+    msg.send "制限君主制で、憲法に従って君主が統治権を行使する君主制ね～。"
+
+  robot.hear /君主制/i, (msg) ->
+    msg.send "世襲の単一者によって統治される政治形態ね～。"
+
+  robot.hear /社会民主主義/i, (msg) ->
+    msg.send "プロレタリアートの独裁から見ると異端よね～。"
+
+  robot.hear /視程/i, (msg) ->
+    msg.send "大気の混濁度を表す尺度で、視程距離は肉眼で目標を確認できる最大距離ね～。"
+
